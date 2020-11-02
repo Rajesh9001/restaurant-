@@ -1,0 +1,43 @@
+{
+  "name": "rms",
+  "version": "1.0.0",
+  "description": "super cool restaurant management system",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha app/test/**/*.test.js --timeout 60000 --exit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mynameiskate/Restaurant-management-system.git"
+  },
+  "keywords": [
+    "restaurants",
+    "automation",
+    "system"
+  ],
+  "author": "Kate & Natasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mynameiskate/Restaurant-management-system/issues"
+  },
+  "homepage": "https://github.com/mynameiskate/Restaurant-management-system#readme",
+  "dependencies": {
+    "@ng-bootstrap/ng-bootstrap": "^4.1.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "msnodesqlv8": "^0.6.12",
+    "mssql": "^4.3.2",
+    "ng-bootstrap": "^1.6.3",
+    "observable": "^2.1.4",
+    "rxjs-observable": "0.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4"
+  }
+}
